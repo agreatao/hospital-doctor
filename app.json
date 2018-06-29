@@ -1,9 +1,11 @@
 {
   "pages": [
-    "pages/login/inex",
     "pages/consult/index",
+    "pages/consult/newest/index",
+    "pages/login/inex",
     "pages/user/index",
-    "pages/report/index"
+    "pages/report/index",
+    "pages/consult/talking/index"
   ],
   "tabBar": {
     "color": "#C0C0C5",

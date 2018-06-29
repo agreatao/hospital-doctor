@@ -1,0 +1,3 @@
+<scroll-view>
+  <newest list-data="{{newestData}}" />
+</scroll-view>

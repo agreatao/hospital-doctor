@@ -1,1 +1,7 @@
-{}
+{
+  "navigationBarTitleText": "咨询回复",
+  "usingComponents": {
+    "newest": "/components/newestConsult/index",
+    "present": "/components/presentConsult/index"
+  }
+}
