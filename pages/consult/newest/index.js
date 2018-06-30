@@ -1,5 +1,5 @@
 Page({
-  data: {
-    newestData: [{}, {}, {}, {}, {}, {}]  
-  }
+    data: {
+        newestData: [{}, {}, {}, {}, {}, {}]
+    }
 })

@@ -1,13 +1,19 @@
-<navigator wx:for="{{listData}}" wx:key="unique" class="present-item" url="/pages/consult/talking/index?ID=1234" hover-class="none">
-  <view class="image-container">
-    <image src="http://dummyimage.com/120x120/40b7ea" />
-    <view class="new-message" />
-  </view>
-  <view class="right-container">
-    <view class="info-container">
-      <text class="name">孙明明</text>
-      <text class="time">03.30 09:45</text>
+<navigator
+    class="present-item"
+    hover-class="none"
+    url="/pages/consult/talking/index?ID=1234"
+    wx:for="{{listData}}"
+    wx:key="unique"
+>
+    <view class="image-container">
+        <image src="http://dummyimage.com/120x120/40b7ea" />
+        <view class="new-message" />
     </view>
-    <text class="content">皮肤痒怎么办？皮肤痒怎么办？</text>
-  </view>
+    <view class="right-container">
+        <view class="info-container">
+            <text class="name">孙明明</text>
+            <text class="time">03.30 09:45</text>
+        </view>
+        <text class="content">皮肤痒怎么办？皮肤痒怎么办？</text>
+    </view>
 </navigator>

@@ -1,6 +1,6 @@
 {
-  "navigationBarTitleText": "最新咨询",
-  "usingComponents": {
-    "newest": "/components/newestConsult/index"
-  }
+    "navigationBarTitleText": "最新咨询",
+    "usingComponents": {
+        "newest": "/components/newestConsult/index"
+    }
 }

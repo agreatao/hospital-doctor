@@ -1,6 +1,6 @@
 {
-  "navigationBarTitleText": "咨询",
-  "usingComponents": {
-    "message": "/components/messageItem/index"
-  }
+    "navigationBarTitleText": "咨询",
+    "usingComponents": {
+        "message": "/components/messageItem/index"
+    }
 }

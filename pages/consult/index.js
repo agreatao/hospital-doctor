@@ -1,10 +1,10 @@
 Page({
-  data: {
-    search: null,
-    newestData: [{}, {}],
-    presentData: [{}, {}, {}]
-  },
-  searchSubmit: function(e) {
-    console.log('search');
-  }
+    data: {
+        search: null,
+        newestData: [{}, {}],
+        presentData: [{}, {}, {}]
+    },
+    searchSubmit: function(e) {
+        console.log('search');
+    }
 })

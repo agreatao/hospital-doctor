@@ -1,10 +1,10 @@
 Component({
-  properties: {
-    listData: Array
-  },
-  methods: {
-    longpress: function(e) {
-      
+    properties: {
+        listData: Array
+    },
+    methods: {
+        longpress: function(e) {
+
+        }
     }
-  }
 })

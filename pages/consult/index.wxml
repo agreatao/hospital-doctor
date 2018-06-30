@@ -1,22 +1,25 @@
 <scroll-view class="container">
-  <view class="input-container">
-    <view class="input-group">
-      <image class="search-img" src="/assets/icon/search.png" />
-      <input class="search-input" value="{{search}}" bindconfirm="searchSubmit" placeholder-class="pl" placeholder="搜索患者姓名" />
-      <button class="search-btn" bindtap="searchSubmit">搜索</button>
+    <view class="input-container">
+        <view class="input-group">
+            <image class="search-img" src="/assets/icon/search.png" />
+            <input class="search-input" value="{{search}}" bindconfirm="searchSubmit" placeholder-class="pl" placeholder="搜索患者姓名" />
+            <button class="search-btn" bindtap="searchSubmit">搜索</button>
+        </view>
     </view>
-  </view>
-  <view class="newest-container">
-    <view class="newest-header">
-      <text class="title">最新咨询</text>
-      <navigator url="newest/index" hover-class="none">全部(<text>30</text>)<image src="/assets/icon/arrow-right.png" /></navigator>
+    <view class="newest-container">
+        <view class="newest-header">
+            <text class="title">最新咨询</text>
+            <navigator url="newest/index" hover-class="none">全部(
+                <text>30</text>)
+                <image src="/assets/icon/arrow-right.png" />
+            </navigator>
+        </view>
+        <newest list-data="{{newestData}}" />
     </view>
-    <newest list-data="{{newestData}}" />
-  </view>
-  <view class="present-container">
-    <view class="present-header">
-      <text class="title">正在咨询</text>
+    <view class="present-container">
+        <view class="present-header">
+            <text class="title">正在咨询</text>
+        </view>
+        <present list-data="{{presentData}}" />
     </view>
-    <present list-data="{{presentData}}" />
-  </view>
 </scroll-view>
