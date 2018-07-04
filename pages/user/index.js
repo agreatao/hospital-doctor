@@ -1,66 +1,38 @@
-// pages/user/index.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
-  data: {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
-  }
+  // data: {
+  //   obj: null,
+  //   sfz: '',
+  //   isZy: true,
+  //   payment: null,
+  //   cardidzy: null,
+  //   patientId: null
+  // },
+  // onLoad: function (options) {
+  //   var userinfo = getApp().globalData.userinfo;
+  //   var sfz = getApp().globalData.sfz;
+  //   this.setData({
+  //     obj: userinfo,
+  //     sfz: userinfo["身份证号"].slice(0, 6) + "********" + userinfo["身份证号"].slice(14, 18)
+  //   })
+  //   wx.request({
+  //     url: "https://www.dszejt.com/ws/ws_xcx.asmx/V_PATS_IN_HOSPITAL_SFZH",
+  //     data: {
+  //       strSFZH: userinfo["身份证号"],//有数据测试账号"650202192611260017"
+  //       strKey: "C1BC7666E5C74BD384196-AD1532102C1"
+  //     },
+  //     method: "POST",
+  //     dataType: "JSON",
+  //     success: (res) => {
+  //       console.log(JSON.parse(JSON.parse(res.data).d))
+  //       if (JSON.parse(JSON.parse(res.data).d).length > 0) {
+  //         this.setData({
+  //           isZy: '',
+  //           payment: JSON.parse(JSON.parse(res.data).d)[0].PREPAYMENTS,
+  //           cardidzy: JSON.parse(JSON.parse(res.data).d)[0].CARDID,
+  //           patientId: JSON.parse(JSON.parse(res.data).d)[0].INP_NO
+  //         })
+  //       }
+  //     }
+  //   })
+  // }
 })

@@ -1,0 +1,67 @@
+<!--pages/user/info/index.wxml-->
+<scroll-view class="container">
+  <view class='list'>
+    <navigator class='item head_info' hover-class="none">
+        <text class='wtinfo'>头像</text>
+       <image class='arrow' src='/assets/user/arrow_info2.png'></image>
+        <image class='head' src="{{obj['头像']}}"></image>
+    </navigator>
+    <navigator class='item' hover-class="none">
+        <text class='wtinfo'>姓名</text>      
+        <text class='asinfo'>医生姓名</text>
+    </navigator>
+    <navigator class='item' hover-class="none">
+        <text class='wtinfo'>工号</text>      
+        <text class='asinfo'>1214454</text>
+    </navigator>
+    <navigator class='item' hover-class="none">
+        <text class='wtinfo'>性别</text>      
+        <text class='asinfo'>男</text>
+    </navigator>
+    <navigator class='item' hover-class="none">
+        <text class='wtinfo'>身份证号</text>      
+        <text class='asinfo'>32102311111111111</text>
+    </navigator>
+  </view>
+  <view class='list list2'>
+      <navigator class='item' hover-class="none">
+        <text class='wtinfo'>HIS部门名称</text>      
+        <text class='asinfo'>内三科病区</text>
+      </navigator>
+    </view>
+  <view class='list list2'>
+      <navigator class='item' hover-class="none">
+        <text class='wtinfo'>职称</text>      
+        <text class='asinfo'>副主任医师</text>
+      </navigator>
+    </view>
+    <view class='list list3'>
+      <navigator class='item' hover-class="none">
+        <text class='wtinfo'>类别</text>      
+        <text class='asinfo'>在院 </text>
+    </navigator>
+       <navigator class='item' hover-class="none">
+        <text class='wtinfo'>专业</text>      
+        <text class='asinfo'>儿科 </text>
+    </navigator>
+  </view>
+    <view class='list list4'>
+    <navigator class='item' hover-class="none">
+        <text class='wtinfo'>电话</text>      
+        <image class='arrow' src='/assets/user/arrow_info2.png'></image>
+        <text class='asinfo'>1338888888</text>
+    </navigator>
+     <navigator class='item' hover-class="none">
+        <text class='wtinfo'>EMAIL</text>      
+        <image class='arrow' src='/assets/user/arrow_info2.png'></image>
+        <text class='asinfo'>1551454@qq.com</text>
+    </navigator>
+        <navigator class='item' hover-class="none">
+        <text class='wtinfo'>密码修改</text>      
+        <image class='arrow' src='/assets/user/arrow_info2.png'></image>
+        <text class='asinfo'>......</text>
+    </navigator>
+  </view>
+  <button class='login_out'>退出登录</button>
+</scroll-view>
+

@@ -1,4 +1,4 @@
-// pages/login/inex.js
+// pages/user/info/index.js
 Page({
 
   /**

@@ -1,40 +1,41 @@
 {
-    "pages": [
-        "pages/consult/index",
-        "pages/consult/newest/index",
-        "pages/login/inex",
-        "pages/user/index",
-        "pages/report/index",
-        "pages/consult/talking/index"
-    ],
-    "tabBar": {
-        "color": "#C0C0C5",
-        "selectedColor": "#1B67FF",
-        "list": [
-            {
-                "iconPath": "assets/icon/consult.png",
-                "selectedIconPath": "assets/icon/consult-active.png",
-                "pagePath": "pages/consult/index",
-                "text": "咨询回复"
-            },
-            {
-                "iconPath": "assets/icon/report.png",
-                "selectedIconPath": "assets/icon/report-active.png",
-                "pagePath": "pages/report/index",
-                "text": "报告查询"
-            },
-            {
-                "iconPath": "assets/icon/user.png",
-                "selectedIconPath": "assets/icon/user-active.png",
-                "pagePath": "pages/user/index",
-                "text": "个人中心"
-            }
-        ]
-    },
-    "window": {
-        "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "WeChat",
-        "navigationBarTextStyle": "black"
-    }
+  "pages": [
+    "pages/login/index",
+    "pages/consult/index",
+    "pages/consult/newest/index",
+    "pages/user/index",
+    "pages/report/index",
+    "pages/consult/talking/index",
+    "pages/user/info/index"
+  ],
+  "tabBar": {
+    "color": "#C0C0C5",
+    "selectedColor": "#1B67FF",
+    "list": [
+      {
+        "iconPath": "assets/icon/consult.png",
+        "selectedIconPath": "assets/icon/consult-active.png",
+        "pagePath": "pages/consult/index",
+        "text": "咨询回复"
+      },
+      {
+        "iconPath": "assets/icon/report.png",
+        "selectedIconPath": "assets/icon/report-active.png",
+        "pagePath": "pages/report/index",
+        "text": "报告查询"
+      },
+      {
+        "iconPath": "assets/icon/user.png",
+        "selectedIconPath": "assets/icon/user-active.png",
+        "pagePath": "pages/user/index",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
 }

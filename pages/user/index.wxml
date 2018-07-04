@@ -1,2 +1,33 @@
 <!--pages/user/index.wxml-->
-<text>pages/user/index.wxml</text>
+<!--pages/owner/index.wxml-->
+  <view class='owner'>
+      <image class='bg' src='/assets/user/my_bg.png'></image>
+      <image class='head' src="{{obj['头像']}}"></image>
+      <text class='name'>真实姓名</text> 
+      <text class='cardCode'>所属科室</text>
+      <text class='level'>主任医生、副教授</text>
+      <image class='set' src='/assets/user/my_set.png'></image>
+      <image class='msg' src='/assets/user/my_msg.png'></image>
+      <view class='msgCount'>11</view>
+  </view>
+  <view class='list'>
+    <navigator class='item' url="info/index" hover-class="none">
+        <image class='info_icon' src='/assets/user/info.png'></image>
+        <text>个人信息</text>
+        <image class='arrow' src='/assets/user/arrow_info2.png'></image>
+    </navigator>
+    <navigator class='item' url="report/index" hover-class="none">
+       <image class='info_icon' src='/assets/user/report.png'></image>
+        <text>报告查询</text>
+        <image class='arrow' src='/assets/user/arrow_info2.png'></image>
+    </navigator>
+    <navigator class='item' url='door/index' hover-class="none">
+        <image class='info_icon' src='/assets/user/door.png'></image>
+        <text>门诊充值</text>
+        <image class='arrow' src='/assets/user/arrow_info2.png'></image>
+    </navigator>
+  </view>
+ 
+
+
+
