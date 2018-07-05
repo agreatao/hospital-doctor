@@ -1,2 +1,8 @@
 <!--pages/report/index.wxml-->
-<text>pages/report/index.wxml</text>
+<view class='search'>
+  <view class='search_area'>
+    <image class='search_icon' src='/assets/icon/search.png'></image>
+    <input class='search_input' placeholder='搜索患者姓名'></input>
+  </view>
+  <view class='do_search'>搜索</view>
+</view>

@@ -16,7 +16,7 @@
         <text>个人信息</text>
         <image class='arrow' src='/assets/user/arrow_info2.png'></image>
     </navigator>
-    <navigator class='item' url="report/index" hover-class="none">
+    <navigator class='item' url="search/index" hover-class="none">
        <image class='info_icon' src='/assets/user/report.png'></image>
         <text>报告查询</text>
         <image class='arrow' src='/assets/user/arrow_info2.png'></image>

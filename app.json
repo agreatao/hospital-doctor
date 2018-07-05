@@ -6,7 +6,9 @@
     "pages/user/index",
     "pages/report/index",
     "pages/consult/talking/index",
-    "pages/user/info/index"
+    "pages/user/info/index",
+    "pages/user/search/index",
+    "pages/user/search/detail/index"
   ],
   "tabBar": {
     "color": "#C0C0C5",

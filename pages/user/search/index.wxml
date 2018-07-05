@@ -1,0 +1,20 @@
+<view class='search'>
+  <view class='search_area'>
+    <image class='search_icon' src='/assets/icon/search.png'></image>
+    <input class='search_input' placeholder='搜索患者姓名'></input>
+  </view>
+  <view class='do_search'>搜索</view>
+</view>
+<view class='list'>
+  <navigator class='item' url="detail/index">
+    <image class='head' src=''></image>
+    <view class='info'>
+      <view>
+        <text class='name'>患者姓名</text>
+        <text class='age'>11岁</text>
+      </view>
+      <view class='phone'>13312345678</view>
+    </view>
+  </navigator>
+</view>
+

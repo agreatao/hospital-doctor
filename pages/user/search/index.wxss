@@ -37,3 +37,39 @@ page{
   color:rgba(27,103,255,1);
   padding-left: 20rpx;
 }
+.item{
+  width: 750rpx;
+  height: 144rpx;
+  background: #fff;
+  border-top:1px solid #F1F2F6;
+  display: flex;
+  align-items:center;
+  overflow: hidden;
+}
+.item .head{
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 50%;
+  margin-left: 28rpx;
+  background: #F1F2F6;
+}
+.item .info{
+  width: 610rpx;
+  height: 88rpx;
+  padding-left: 28rpx;
+}
+.item .info .name{
+  font-size:32rpx;
+  font-family:PingFangSC-Regular;
+  color:rgba(34,37,41,1);
+  line-height:44rpx;
+}
+.item .info .age,.item .info .phone{
+  font-size:24rpx;
+  color:#A3ACBF;
+  padding-left: 20rpx;
+}
+.item .info .phone{
+  padding-left: 0;
+  padding-top: 10rpx;
+}
