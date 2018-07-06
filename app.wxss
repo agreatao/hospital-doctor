@@ -1,3 +1,7 @@
+button, navigator, text, view, input, page {
+    box-sizing: border-box;
+}
+
 button, navigator {
     display: inline-block;
     line-height: normal;
@@ -18,9 +22,7 @@ text {
 input {
     font-size: 36rpx;
 }
-
 /* placeholder-class */
-
 .pl {
     color: #a1a2a3;
 }
@@ -35,4 +37,29 @@ image {
     left: 0;
     right: 0;
     background-color: #fff;
+}
+
+.btn-block {
+    display: block;
+    margin: 15px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.btn-block.btn-primary {
+    color: #fff;
+    background-color: #009fe9;
+}
+
+.submit {
+    display: block;
+    background-color: #1B67FF;
+    color: #fff;
+    border-radius: 8rpx;
+    width: 700rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    margin: 15px auto;
+    text-align: center;
 }

@@ -1,6 +1,6 @@
 <view
     class="who-{{item['留言对象']}}"
-    longpress="longpress"
+    bindlongpress="longpress"
     wx:for="{{listData}}"
     wx:key="unique"
     data-id="{{item['留言ID']}}"

@@ -66,11 +66,10 @@ page {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-right: 10px;
+    padding: 10px;
 }
 
 .on-contact input {
-    padding: 10px;
     font-size: 32rpx;
     color: #555;
     flex: 1;

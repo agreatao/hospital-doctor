@@ -26,7 +26,7 @@
     word-break: break-all;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
-    font-size: 48rpx;
+    font-size: 40rpx;
     margin-right: 10px;
 }
 

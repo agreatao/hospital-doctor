@@ -4,7 +4,10 @@ Component({
     },
     methods: {
         longpress: function(e) {
-
+            wx.showModal({
+                title: 'aa',
+                content: 'bb',
+            })
         }
     }
 })
