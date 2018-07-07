@@ -10,7 +10,7 @@
         <view class="newest-header">
             <text class="title">最新咨询</text>
             <navigator url="newest/index" hover-class="none">全部(
-                <text>30</text>)
+                <text>{{newestData.length}}</text>)
                 <image src="/assets/icon/arrow-right.png" />
             </navigator>
         </view>
@@ -18,8 +18,8 @@
     </view>
     <view class="present-container">
         <view class="present-header">
-            <text class="title">正在咨询</text>
+            <text class="title">历史咨询</text>
         </view>
-        <present list-data="{{presentData}}" />
+        <present list-data="{{historyData}}" />
     </view>
 </scroll-view>

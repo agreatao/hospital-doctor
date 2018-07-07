@@ -30,31 +30,31 @@
     margin-top: -5px;
 }
 
-.who-Y {
+.who-H {
     flex-direction: row;
 }
 
-.who-Y text {
+.who-H text {
     background-color: #fff;
     margin-left: 8px;
 }
 
-.who-Y text::before {
+.who-H text::before {
     border-right-color: #fff;
     left: -10px;
 }
 
-.who-H {
+.who-Y {
     flex-direction: row-reverse;
 }
 
-.who-H text {
+.who-Y text {
     background-color: #007aff;
     color: #fff;
     margin-right: 8px;
 }
 
-.who-H text::before {
+.who-Y text::before {
     border-left-color: #007aff;
     right: -10px;
 }

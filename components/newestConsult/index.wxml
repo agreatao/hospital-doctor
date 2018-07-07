@@ -1,16 +1,15 @@
 <navigator
     class="newest-item"
     hover-class="none"
-    url="/pages/consult/talking/index?ID=1234"
+    url="/pages/consult/talking/index?ID={{item['咨询流水ID']}}"
     wx:for="{{listData}}"
-    wx:key="unique"
->
-    <image src="http://dummyimage.com/140x140/40b7ea" />
+    wx:key="unique">
+    <image src="{{item['头像']}}" />
     <view class="right-container">
-        <text class="content">皮肤痒怎么办？皮肤痒怎么办？</text>
+        <text class="content">{{item['咨询问题']}}</text>
         <view class="info-container">
-            <text class="name">孙明明</text>
-            <text class="time">03.30 09:45</text>
+            <text class="name">{{item['姓名']}}</text>
+            <text class="time">{{item['咨询时间']}}</text>
         </view>
     </view>
 </navigator>

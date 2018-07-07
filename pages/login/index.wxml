@@ -1,13 +1,13 @@
 <image class="bg" src="/assets/login/login_bg.png" />
 <view class='login-container'>
-    <text class="yhd">用户端</text>
+    <text class="yhd">医生端</text>
     <image class="logo" src="/assets/login/logo.png" />
     <view class="app-name">独医通</view>
     <view class="login-from">
         <!--账号-->
         <view class="input-view">
             <image src="/assets/login/login_account.png" />
-            <input placeholder="请输入身份证号" placeholder-class="pl" bindinput="usernameInput" />
+            <input placeholder="请输入工号" placeholder-class="pl" bindinput="usernameInput" />
         </view>
         <!--密码-->
         <view class="input-view">

@@ -1,8 +1,8 @@
 <scroll-view class="container">
     <view class="top-info">
-        <text class="name">孙明明 <text class="sex">男</text></text>
-        <text class="question">问题：皮肤痒怎么办？</text>
-        <text class="desc">症状描述：昨天被虫子咬了</text>
+        <text class="name">{{user['姓名']}} <text class="sex">{{user['性别']}}</text></text>
+        <text class="question">问题：{{user['问题']}}</text>
+        <text class="desc">症状描述：{{user['描述']}}</text>
         <view class="image-container">
             <image src="http://dummyimage.com/140x140/40b7ea" />
             <image src="http://dummyimage.com/140x140/40b7ea" />
@@ -11,7 +11,7 @@
             <image src="http://dummyimage.com/140x140/40b7ea" />
         </view>
     </view>
-    <text class="time">咨询到期时间： 2018.06.25 13:45</text>
+    <text class="time">咨询到期时间： {{user['结束时间']}}</text>
     <view class="message-container">
         <message list-data="{{messages}}" />
     </view>
