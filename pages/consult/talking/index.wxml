@@ -17,6 +17,6 @@
     </view>
 </scroll-view>
 <view class="fix-bottom on-contact">
-    <input placeholder="请输入内容" placeholder-class="pl" bindconfirm="submit" value="{{content}}" />
+    <input placeholder="请输入内容" placeholder-class="pl" bindconfirm="submit" bindinput="change" value="{{content}}" />
     <image src="/assets/icon/enter.png" class="enter-btn" bindtap="submit" />
 </view>

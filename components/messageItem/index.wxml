@@ -6,7 +6,7 @@
     data-id="{{item['留言ID']}}"
     data-sfzh="{{item['留言人ID']}}"
     data-index="{{index}}"
->
+    data-del="{{item['留言对象'] == 'Y'}}">
     <image src="{{item['头像']}}" />
     <text>{{item['内容']}}</text>
 </view>
