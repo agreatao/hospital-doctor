@@ -82,10 +82,6 @@ page {
     margin-top: 20rpx;
 }
 
-.list2 .asinfo {
-    padding-right: 36rpx;
-}
-
 .list3 {
     margin-top: 20rpx;
     height: 193rpx;

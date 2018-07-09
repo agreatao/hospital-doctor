@@ -1,6 +1,6 @@
-button, navigator, text, view, input, page {
+/* button, navigator, text, view, input, page {
     box-sizing: border-box;
-}
+} */
 
 button, navigator {
     display: inline-block;
