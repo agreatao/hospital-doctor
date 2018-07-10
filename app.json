@@ -1,14 +1,16 @@
 {
   "pages": [
-    "pages/report/index",
     "pages/login/index",
     "pages/consult/index",
     "pages/consult/newest/index",
+    "pages/report/index",
     "pages/user/index",
     "pages/consult/talking/index",
     "pages/user/info/index",
     "pages/user/search/index",
-    "pages/user/search/detail/index"
+    "pages/user/search/detail/index",
+    "pages/user/door/index",
+    "pages/user/door/recharge/index"
   ],
   "tabBar": {
     "color": "#C0C0C5",
