@@ -28,34 +28,37 @@ page {
     left: 40rpx;
     top: 69rpx;
 }
-
-.owner .name {
+.owner .line{
     position: absolute;
     left: 178rpx;
     top: 76rpx;
     color: #fff;
-    font-size: 32rpx;
+    width: 100%;
+}
+.owner .line .name {
+    font-size: 32rpx; 
+    float: left;
 }
 
-.owner .level {
-    position: absolute;
-    left: 330rpx;
-    top: 86rpx;
-    color: #fff;
+.owner .line .level {
+    float: left;
+    margin-left: 20rpx;
     font-size: 24rpx;
+    line-height: 45rpx;
 }
 
 .owner .cardCode {
     position: absolute;
     left: 178rpx;
     top: 136rpx;
-    color: #fff;
+    color: #fff; 
     font-size: 24rpx;
 }
 
 .owner .set {
     position: absolute;
-    right: 145rpx;
+    /* right: 145rpx; */
+    right: 76rpx;
     bottom: 46rpx;
     width: 32rpx;
     height: 32rpx;

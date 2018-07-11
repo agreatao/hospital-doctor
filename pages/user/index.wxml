@@ -1,11 +1,15 @@
 <view class='owner'>
     <image class='bg' src='/assets/user/my_bg.png'></image>
     <image class='head' src="{{user['头像']}}"></image>
-    <text class='name'>{{user['姓名']}}</text>
+    <view class='line'>
+        <text class='name'>{{user['姓名']}}</text>
+        <text class='level'>{{user['职称']}}</text>      
+    </view>
     <text class='cardCode'>{{user['HIS部门名称']}}</text>
-    <text class='level'>{{user['职称']}}</text>
-    <image class='set' src='/assets/user/my_set.png'></image>
-    <image class='msg' src='/assets/user/my_msg.png'></image>
+     <navigator class='item' url="info/index" hover-class="none">
+        <image class='set' src='/assets/user/my_set.png'></image>
+     </navigator>
+    <image class='msg' src='/assets/user/my_msg.png' style='display:none;'></image>
     <view class='msgCount'>11</view>
 </view>
 <view class='list'>
