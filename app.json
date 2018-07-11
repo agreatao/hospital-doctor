@@ -1,9 +1,9 @@
 {
   "pages": [
-    "pages/report/index",
     "pages/login/index",
     "pages/consult/index",
     "pages/consult/newest/index",
+    "pages/report/index",
     "pages/user/index",
     "pages/consult/talking/index",
     "pages/user/info/index",
